@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body ng-app="RoutingApp">
+	<h2 align="center">Welcome to Student Online Portal.</h2>
+	<a href="#home"><span class="label label-primary">Home</span></a>
+	<a href="#about"><span class="label label-primary">About</span></a>
+	<div ng-view>
+	</div>
+</body>
+</html>
